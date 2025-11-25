@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url(https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap) format('woff2');
+    font-display: swap;
+    font-weight: normal;
+
+}
+
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 50px;
+    background: #000;
+}
+h2, h3, h4, h5 {
+    color: lightcyan;
+}
+h1{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Ciutadella Rounded', 'Oswald', sans-serif;
+    text-align: center;
+    color: cyan;
+}
+p{
+    font-size: 20px;
+    text-align: left;
+    color: lightcyan;
+    font-family: Quicksand, sans-serif;
+}
+
+h6{
+    color: cyan;
+    text-align: center;
+}

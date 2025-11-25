@@ -1,0 +1,151 @@
+﻿Name,BornYear,DiedYear,BornCity,BornLat,BornLong,DiedCity,DiedLat,DiedLong,BornCountry,DiedCountry,Irodalom,Kor,Alkor
+József Atilla,4/11/1905,12/3/1937,"Pest, Hungary",47.5,19.1,Balatonszárszó,46.8295,17.8351,Hungary,Hungary,Magyar Irodalom,Realizmus,Önkényuralom
+Jókai Mór,1825-02-18,5/5/1904,Komárom,47.74,18.1217,"Pest, Hungary",47.5,19.1,Hungary,Hungary,Magyar Irodalom,Romantika,Reformkor
+báró Eötvös József,1813-09-03,1871-02-02,"Pest, Hungary",47.5,19.1,"Pest, Hungary",47.5,19.1,Hungary,Hungary,Magyar Irodalom,Romantika,Reformkor
+Móricz Zsigmond,1879-06-29,9/5/1942,Tiszacsécse,48.1,22.75,"Pest, Hungary",47.5,19.1,Hungary,Hungary,Magyar Irodalom,Realizmus,Önkényuralom
+Petőfi Sándor,1823-01-01,1849-07-31,Kiskőrös,46.6203,19.2836,Cristuru Secuiesc,46.2917,25.0353,Hungary,Romania,Magyar Irodalom,Romantika,Reformkor
+Katona József,1791-11-11,1830-04-16,Kecskemét,46.9075,19.691667,Kecskemét,46.9075,19.691667,Hungary,Hungary,Magyar Irodalom,Felvilágosodás,
+Kölcsey Ferenc,1790-08-08,1838-08-24,Săuca,47.4542,22.4867,Szatmárcseke,48.0859,22.631,Romania,Hungary,Magyar Irodalom,Romantika,Reformkor
+Vörösmarty Mihály,1800-12-01,1855-11-19,Kápolnásnyék,47.243,18.6846,"Pest, Hungary",47.5,19.1,Hungary,Hungary,Magyar Irodalom,Romantika,Reformkor
+Kisfaludy Károly,1788-02-05,1830-11-21,Tét,47.5167,17.5167,"Pest, Hungary",47.5,19.1,Hungary,Hungary,Magyar Irodalom,Felvilágosodás,
+Széchenyi István,1791-09-21,1860-04-08,Innere Stadt,48.2097,16.37,Döbling,48.266389,16.322778,Austria,Austria,Magyar Irodalom,Romantika,Reformkor
+Bessenyei György,1746-02-24,1811-02-24,Tiszabercel,48.15,21.65,Bakonszeg,47.1833,21.45,Hungary,Hungary,Magyar Irodalom,Felvilágosodás,
+Batsányi János,1763-05-09,1845-05-12,Tapolca,46.8828,17.4411,Linz,48.3058,14.2864,Hungary,Austria,Magyar Irodalom,Felvilágosodás,
+Kisfaludy Sándor,1772-09-27,1844-10-28,Sümeg,46.9775,17.2817,Sümeg,46.9775,17.2817,Hungary,Hungary,Magyar Irodalom,Felvilágosodás,
+Kármán József,1769-03-14,1795-06-03,Lučenec,48.3314,19.6708,Lučenec,48.3314,19.6708,Slovakia,Slovakia,Magyar Irodalom,Felvilágosodás,
+Kazinczy Ferenc,1759-10-27,1831-08-23,"Șimian, Mehedinți",44.6323,22.7515,Sátoraljaújhely,48.3941,21.6561,Romania,Hungary,Magyar Irodalom,Felvilágosodás,Nyelvujítás
+Berzsenyi Dániel,1776-05-07,1836-02-24,Egyházashetye,47.1697,17.118,Nikla,46.5814,17.5163,Hungary,Hungary,Magyar Irodalom,Felvilágosodás,
+Csokonai Vitéz Mihály,1773-11-17,1805-01-28,Debrecen,47.531667,21.624444,Debrecen,47.531667,21.624444,Hungary,Hungary,Magyar Irodalom,Felvilágosodás,
+Zrínyi Miklós,1620-05-03,1664-11-18,Čakovec,46.3833,16.4333,Gornji Kuršanec,46.3281,16.36,Croatia,Romania,Magyar Irodalom,Barokk,
+Apáczai Csere János,1625-06-10,1659-12-31,Apața,45.9517,25.5314,Cluj-Napoca,46.78,23.5594,Romania,Romania,Magyar Irodalom,Barokk,Erdély emlékirat
+Kemény János,1607-12-14,1662-01-23,Telciu,47.4311,24.3957,,,,Romania,,Magyar Irodalom,Barokk,Erdély emlékirat
+Bethlen Miklós,1642-09-01,1716-10-27,Boiu,46.265703,24.874823,Innere Stadt,48.2097,16.37,Romania,Austria,Magyar Irodalom,Barokk,Erdély emlékirat
+Bethlen Kata,1700-11-25,1759-07-29,Bahnea,46.326,24.4767,Făgăraș,45.8422,24.9714,Romania,Romania,Magyar Irodalom,Barokk,Erdély emlékirat
+II. Rákóczi Ferenc,1676-03-27,1735-03-08,Borša,48.3957,21.7075,Tekirdağ,40.9833,27.5167,Slovakia,Romania,Magyar Irodalom,Barokk,Erdély emlékirat
+Mikes Kelemen,1690-08-12,1761-10-02,Zagon,45.7196,26.2224,Tekirdağ,40.9833,27.5167,Romania,Romania,Magyar Irodalom,Barokk,
+Amade László,1703-03-12,1764-12-22,Gabčíkovo,47.8921,17.5788,Horný Bar,47.9472,17.4633,Slovakia,Slovakia,Magyar Irodalom,Rokokó,
+Pannonius Janus,1434-08-29,1472-03-27,Čazma,45.7492,16.6144,Zagreb,45.813056,15.9775,Croatia,Croatia,Magyar Irodalom,Reneszánsz,
+Balassi Bálint,1554-10-20,1594-05-30,Zvolen,48.5831,19.1331,Esztergom,47.7856,18.7403,Slovakia,Hungary,Magyar Irodalom,Reneszánsz,
+Szkhárosi Horváth András,1500-01-01,1549-01-01,,,,,,,,,Magyar Irodalom,Reneszánsz,Reformáció
+Sztárai Mihály,1500-01-01,1575-01-01, ,,,,,,,,Magyar Irodalom,Reneszánsz,Reformáció
+Heltai Gáspár,1520-01-01,1574-01-01, ,,,,,,,,Magyar Irodalom,Reneszánsz,Reformáció
+Bornemissza Péter,1535-02-22,1584-02-22,"Pest, Hungary",47.5,19.1,"Rohožník, Malacky District",48.4583,17.1658,Hungary,Slovakia,Magyar Irodalom,Reneszánsz,Reformáció
+Tinódi Lantos Sebestyén,1510-01-30,1556-01-30,Aleșd,47.0572,22.3969,Sárvár,47.2539,16.9353,Romania,Hungary,Magyar Irodalom,Reneszánsz,Deák
+Gyergyai Albert,1500-01-01,1600-01-11,,,,,,,,,Magyar Irodalom,Reneszánsz,Deák
+Ilosvai Selymes Péter,1520-01-01,1580-01-01,Veľká Ida,48.6,21.1667,Coșeiu,47.3243,23.0096,Slovakia,Romania,Magyar Irodalom,Reneszánsz,Deák
+Rimay János,1570-12-09,1631-12-09,Dolná Strehová,48.2503,19.4883,Divín,48.4506,19.5328,Slovakia,Slovakia,Magyar Irodalom,Reneszánsz,Protestáns
+Szepsi Csombor Márton,1595-01-11,1622-01-01,Moldava nad Bodvou,48.6156,20.9992,Vranov nad Topľou,48.8806,21.6731,Slovakia,Slovakia,Magyar Irodalom,Reneszánsz,Protestáns
+Szenci Molnár Albert,1574-08-30,1634-01-17,"Senec, Slovakia",48.2189,17.3997,Cluj-Napoca,46.78,23.5594,Slovakia,Romania,Magyar Irodalom,Reneszánsz,Protestáns
+Arany János,1817-03-02,1882-10-22,Salonta,46.8,21.65,"Pest, Hungary",47.5,19.1,Romania,Hungary,Magyar Irodalom,Romantika,
+Михаил Лермонтов,1814-10-15,1841-07-27,Moscow,55.755833,37.617778,Pyatigorsk,44.0333,43.05,Russia,Russia,Világirodalom,Romantika,
+Gyulai Pál,1826-01-25,11/9/1909,Cluj-Napoca,46.78,23.5594,Cluj-Napoca,46.78,23.5594,Romania,Romania,Magyar Irodalom,Realizmus,Önkényuralom
+Vajda János,1827-05-07,1897-01-17,"Pest, Hungary",47.5,19.1,"Pest, Hungary",47.5,19.1,Hungary,Hungary,Magyar Irodalom,Realizmus,Önkényuralom
+Reviczky Gyula,1855-04-09,1889-07-11,"Kuzmice, Topoľčany District",48.5814,18.105,"Pest, Hungary",47.5,19.1,Slovakia,Hungary,Magyar Irodalom,Realizmus,Önkényuralom
+Madách Imre,1823-01-20,1864-10-05,Dolná Strehová,48.2503,19.4883,Dolná Strehová,48.2503,19.4883,Slovakia,Slovakia,Magyar Irodalom,Realizmus,Önkényuralom
+Mikszáth Kálmán,1847-01-16,5/28/1910,Sklabiná,48.16,19.3578,"Pest, Hungary",47.5,19.1,Slovakia,Hungary,Magyar Irodalom,Realizmus,Önkényuralom
+Bródy Sándor,1863-07-23,8/12/1924,Eger,47.89902,20.3747,"Pest, Hungary",47.5,19.1,Hungary,Hungary,Magyar Irodalom,Századforduló,Polgári Irodalom
+Herczeg Ferenc,1863-09-22,2/24/1954,Vršac,45.1206,21.2986,"Pest, Hungary",47.5,19.1,Serbia,Hungary,Magyar Irodalom,Századforduló,Konzervatív
+Zilahy Lajos,1891-03-27,12/1/1974,Salonta,46.8,21.65,Novi Sad,45.2644,19.8317,Romania,Serbia,Magyar Irodalom,Századforduló,Konzervatív
+Molnár Ferenc,1878-01-12,4/1/1952,"Pest, Hungary",47.5,19.1,New York City,40.7,-74,Hungary,United States,Magyar Irodalom,Századforduló,Polgári Irodalom
+Heltai Jenő,1871-08-11,9/3/1957,"Pest, Hungary",47.5,19.1,"Pest, Hungary",47.5,19.1,Hungary,Hungary,Magyar Irodalom,Századforduló,Polgári Irodalom
+Balázs Béla,1884-08-04,5/17/1949,Szeged,46.255,20.145,"Pest, Hungary",47.5,19.1,Hungary,Hungary,Magyar Irodalom,Századforduló,Polgári Irodalom
+Ady Endre,1877-11-22,1/27/1919,Căuaș,47.5887,22.5354,"Pest, Hungary",47.5,19.1,Romania,Hungary,Magyar Irodalom,Századforduló,Nyugat
+Babits Mihály,1883-10-26,8/4/1941,Szekszárd,46.355833,18.703889,"Pest, Hungary",47.5,19.1,Hungary,Hungary,Magyar Irodalom,Századforduló,Nyugat
+Kosztolányi Dezső,1885-03-29,10/3/1936,Subotica,46.0983,19.67,"Pest, Hungary",47.5,19.1,Serbia,Hungary,Magyar Irodalom,Századforduló,Nyugat
+Tóth Árpád,1886-04-14,10/7/1928,"Arad, Romania",46.1667,21.3167,"Pest, Hungary",47.5,19.1,Romania,Hungary,Magyar Irodalom,Századforduló,Nyugat
+Juhász Gyula,1883-04-04,4/6/1937,Szeged,46.255,20.145,Szeged,46.255,20.145,Hungary,Hungary,Magyar Irodalom,Századforduló,Nyugat
+Karinthy Frigyes,1887-06-25,8/29/1938,"Pest, Hungary",47.5,19.1,Siófok,46.9,18.05,Hungary,Hungary,Magyar Irodalom,Századforduló,Nyugat
+Kaffka Margit,1880-06-10,12/1/1918,Carei,47.69,22.47,"Pest, Hungary",47.5,19.1,Romania,Hungary,Magyar Irodalom,Századforduló,Nyugat
+Szabó Lőrinc,3/31/1900,10/3/1957,Miskolc,48.104167,20.791667,"Pest, Hungary",47.5,19.1,Hungary,Hungary,Magyar Irodalom,Századforduló,Nyugat
+Illyés Gyula,11/2/1902,4/15/1983,Pálfa,46.712,18.613,"Pest, Hungary",47.5,19.1,Hungary,Hungary,Magyar Irodalom,Századforduló,Nyugat
+Márai Sándor,4/11/1900,2/21/1989,Košice,48.7167,21.25,San Diego,32.715,-117.1625,Slovakia,United States,Magyar Irodalom,Századforduló,Nyugat
+Németh László,4/18/1901,3/3/1975,Baia Mare,47.6567,23.5719,"Pest, Hungary",47.5,19.1,Romania,Hungary,Magyar Irodalom,Századforduló,Nyugat
+Radnóti Miklós,5/5/1909,11/12/1944,"Pest, Hungary",47.5,19.1,Győr,47.684167,17.634444,Hungary,Hungary,Magyar Irodalom,Századforduló,Nyugat
+Weöres Sándor,6/22/1913,1/22/1989,Szombathely,47.233333,16.633333,"Pest, Hungary",47.5,19.1,Hungary,Hungary,Magyar Irodalom,Századforduló,Nyugat
+Ottlik Géza,5/9/1912,10/9/1990,"Pest, Hungary",47.5,19.1,"Pest, Hungary",47.5,19.1,Hungary,Hungary,Magyar Irodalom,Századforduló,Nyugat
+Szerb Antal,5/1/1901,1/27/1945,"Pest, Hungary",47.5,19.1,"Balf, Hungary",47.65,16.6655,Hungary,Hungary,Magyar Irodalom,Századforduló,Nyugat
+Vas István,9/24/1910,12/16/1991,"Pest, Hungary",47.5,19.1,"Pest, Hungary",47.5,19.1,Hungary,Hungary,Magyar Irodalom,Századforduló,Nyugat
+Jékely Zoltán,4/24/1913,3/19/1982,Aiud,46.3103,23.7167,"Pest, Hungary",47.5,19.1,Romania,Hungary,Magyar Irodalom,Századforduló,nyugat
+Tompa Mihály,1817-09-28,1868-07-30,Rimavská Sobota,48.3814,20.02,Chanava,48.3377,20.2982,Slovakia,Slovakia,Magyar Irodalom,Realizmus,Önkényuralom
+Francesco Petrarca,1304-07-20,1374-07-19,Arezzo,43.4631,11.8781,Arquà Petrarca,45.2667,11.7167,Italy,Italy,Világirodalom,Reneszánsz,
+Giovanni Boccaccio,1313-06-16,1375-12-21,Certaldo,43.5478,11.0411,Certaldo,43.5478,11.0411,Italy,Italy,Világirodalom,Reneszánsz,
+William Shakespeare,1564-04-23,1616-04-23,Stratford-upon-Avon,52.1928,-1.7064,Stratford-upon-Avon,52.1928,-1.7064,England,England,Világirodalom,Reneszánsz,
+Miguel de Cervantes,1547-09-29,1616-04-22,Alcalá de Henares,40.4818,-3.3643,Madrid,40.4169,-3.7033,Spain,Spain,Világirodalom,Reneszánsz,
+Walther von der Vogelweide,1170-01-01,1230-01-01,,,,Würzburg,49.7944,9.9294,Germany,Germany,Világirodalom,Középkor,
+Dante Alighieri,1265-01-01,1321-09-14,Florence,43.7714,11.2542,Ravenna,44.4161,12.2017,Italy,Italy,Világirodalom,Középkor,
+François Villon,1431-01-01,1463-01-05,Paris,48.8567,2.3522,Paris,48.8567,2.3522,France,France,Világirodalom,Középkor,
+Torquato Tasso,1544-03-11,1595-04-25,Sorrento,40.6278,14.3736,Rome,41.8931,12.4828,Italy,Italy,Világirodalom,Barokk,
+John Milton,1608-12-09,1674-11-08,London,51.5072,-0.1275,London,51.5072,-0.1275,England,England,Világirodalom,Barokk,
+Calderón,1600-01-17,1681-05-25,Madrid,40.4169,-3.7033,Madrid,40.4169,-3.7033,Spain,Spain,Világirodalom,Barokk,
+Lope de Vega,1562-11-25,1635-08-27,Madrid,40.4169,-3.7033,Madrid,40.4169,-3.7033,Spain,Spain,Világirodalom,Barokk,
+Gotthold Lessing Ephraim,1729-01-22,1781-02-15,Kamenz,51.27,14.0953,Braunschweig,52.2692,10.5211,Germany,Germany,Világirodalom,Felvilágosodás,
+Johann Goethe Wolfgang,1749-08-28,1832-03-22,Frankfurt,50.1106,8.6822,Weimar,50.9811,11.3294,Germany,Germany,Világirodalom,Felvilágosodás,
+Friedrich Schilller,1759-11-10,1805-05-09,Marbach am Neckar,48.9406,9.2575,Weimar,50.9811,11.3294,Germany,Germany,Világirodalom,Felvilágosodás,
+Denis Diderot,1713-10-05,1784-07-31,Langres,47.8625,5.3331,Paris,48.8567,2.3522,France,France,Világirodalom,Felvilágosodás,
+Jean-Jaques Rousseau,1712-06-28,1778-07-02,Geneva,46.2,6.15,Ermenonville,49.1261,2.6958,Switzerland,France,Világirodalom,Felvilágosodás,
+François Voltaire,1694-11-21,1778-05-30,Paris,48.8567,2.3522,Paris,48.8567,2.3522,France,France,Világirodalom,Felvilágosodás,
+Charles Montesquieu,1689-01-18,1755-02-10,La Brède,44.6814,-0.5286,Paris,48.8567,2.3522,France,France,Világirodalom,Felvilágosodás,
+Molière,1622-02-17,1673-02-17,Paris,48.8567,2.3522,Paris,48.8567,2.3522,France,France,Világirodalom,Felvilágosodás,
+Jean Racine,1639-12-22,1699-04-21,La Ferté-Milon,49.1783,3.1239,Paris,48.8567,2.3522,France,France,Világirodalom,Felvilágosodás,
+Pierre Corneille,1606-06-06,1684-10-01,Rouen,49.4431,1.1025,Paris,48.8567,2.3522,France,France,Világirodalom,Felvilágosodás,
+Pierre Beaumarchais,1732-01-24,1799-05-18,Paris,48.8567,2.3522,Paris,48.8567,2.3522,France,France,Világirodalom,Felvilágosodás,
+Carlo Goldoni,1707-02-25,1793-02-06,Venice,45.4397,12.3319,Paris,48.8567,2.3522,Italy,France,Világirodalom,Felvilágosodás,
+Alexander Pope,1688-05-21,1744-05-30,London,51.5072,-0.1275,Twickenham,51.4486,-0.3369,England,England,Világirodalom,Felvilágosodás,
+Daniel Defoe,1660-04-24,1731-04-24,London,51.5072,-0.1275,London,51.5072,-0.1275,England,England,Világirodalom,Felvilágosodás,
+Jonathan Swift,1667-11-30,1745-10-19,Dublin,53.3497,-6.2603,Dublin,53.3497,-6.2603,Republic of Ireland,Republic of Ireland,Világirodalom,Felvilágosodás,
+Heinrich Heine,1797-12-13,1856-02-17,Düsseldorf,51.2311,6.7724,Paris,48.8567,2.3522,Germany,France,Világirodalom,Romantika,
+Friedrich Hölderin,1770-03-20,1843-07-07,Lauffen am Neckar,49.0764,9.1567,Tübingen,48.52,9.0556,Germany,Germany,Világirodalom,Romantika,
+Novalis,1772-05-02,1801-03-25,Wiederstedt,51.6667,11.5331,Weißenfels,51.2,11.9667,Germany,Germany,Világirodalom,Romantika,
+Alphonse Lamartine,1790-10-21,1869-02-28,Mâcon,46.3067,4.8319,Paris,48.8567,2.3522,France,France,Világirodalom,Romantika,
+Alfred Musset,1810-12-11,1857-05-02,Paris,48.8567,2.3522,Paris,48.8567,2.3522,France,France,Világirodalom,Romantika,
+George Sand,1804-07-01,1876-06-08,Paris,48.8567,2.3522,Nohant-Vic,46.6386,1.96,France,France,Világirodalom,Romantika,
+Victor Hugo,1802-02-26,1885-05-22,Besançon,47.2422,6.0214,Paris,48.8567,2.3522,France,France,Világirodalom,Romantika,
+Washington Irving,1783-04-03,1859-11-28,Manhattan,40.7283,-73.9942,"Tarrytown, New York",41.0692,-73.8597,United States,United States,Világirodalom,Romantika,
+James Cooper Fenimore,1789-09-15,1851-09-14,"Burlington, New York",42.7228,-75.1256,"Cooperstown, New York",42.6972,-74.9269,United States,United States,Világirodalom,Romantika,
+Edgar Poe Allan,1809-01-19,1849-10-07,Boston,42.3603,-71.0578,Baltimore,39.2864,-76.615,United States,United States,Világirodalom,Romantika,
+William Wordsworth,1770-04-07,1850-04-23,Cockermouth,54.6613,-3.362,"Rydal, Cumbria",54.4333,-2.9833,England,England,Világirodalom,Romantika,
+Samuel Coleridge Taylor,1875-08-15,9/1/1912,London,51.5072,-0.1275,Croydon,51.3727,-0.1099,England,England,Világirodalom,Romantika,
+Walter Scott,1771-08-15,1832-09-21,Edinburgh,55.9533,-3.1892,Galashiels,55.6206,-2.8189,Scotland,Scotland,Világirodalom,Romantika,
+Robert Burns,1759-01-25,1796-07-21,Alloway,55.4327,-4.6335,Dumfries,55.0667,-3.6167,Scotland,Scotland,Világirodalom,Romantika,
+George Byron Gordon,1788-01-22,1824-04-19,London,51.5072,-0.1275,Missolonghi,38.3686,21.4289,England,Greece,Világirodalom,Romantika,
+Percy Shelley Bysshe,1792-08-04,1822-07-08,Horsham,51.062,-0.325,Lerici,44.0763,9.9111,England,Italy,Világirodalom,Romantika,
+John Keats,1795-10-31,1821-02-23,London,51.5072,-0.1275,Rome,41.8931,12.4828,England,Italy,Világirodalom,Romantika,
+Jane Austen,1775-12-16,1817-07-18,"Steventon, Oxfordshire",51.62,-1.33,winchester,51.0632,-1.308,England,England,Világirodalom,Romantika,
+Mary Shelley,1797-08-30,1851-02-01,London,51.5072,-0.1275,London,51.5072,-0.1275,England,England,Világirodalom,Romantika,
+Александр Пушкин,1799-06-06,1837-02-10,Moscow,55.755833,37.617778,Saint Petersburg,59.9375,30.308611,Russia,Russia,Világirodalom,Romantika,
+Kemény Zsigmond,1814-06-12,1875-12-22,Vințu de Jos,46.0259,23.4579,Cămărașu,46.7976,24.1075,Romania,Romania,Magyar Irodalom,Realizmus,Önkényuralom
+William Thackerey Makepeace,1811-07-18,1863-12-24,Kolkata,22.5727,88.3639,London,51.5072,-0.1275,India,England,Világirodalom,Realizmus,
+Charles Dickens,1812-02-07,1870-06-09,Portsmouth,50.8058,-1.0872,Kent,51.2,0.7,England,England,Világirodalom,Realizmus,
+Charlotte Brontë,1816-04-21,1855-03-31,"Thornton, West Yorkshire",53.7898,-1.8504,Bradford,53.794,-1.751,England,England,Világirodalom,Realizmus,
+Emily Brontë,1818-07-30,1848-12-19,"Thornton, West Yorkshire",53.7898,-1.8504,Bradford,53.794,-1.751,England,England,Világirodalom,Realizmus,
+Anne Brontë,1820-01-17,1849-05-28,"Thornton, West Yorkshire",53.7898,-1.8504,Bradford,53.794,-1.751,England,England,Világirodalom,Realizmus,
+Henrik Ibsen,1828-03-20,5/23/1906,Skien,59.2081,9.5528,Oslo,59.913333,10.738889,Norway,Norway,Világirodalom,Realizmus,
+Николай Гогол Василевич,1809-04-01,1852-03-04,Velyki Sorochyntsi,50.0253,33.9477,Moscow,55.755833,37.617778,Ukraine,Russia,Világirodalom,Realizmus,
+Фёдор Достоевский Михайлович,1821-11-11,1881-02-09,Moscow,55.755833,37.617778,Saint Petersburg,59.9375,30.308611,Russia,Russia,Világirodalom,Realizmus,
+Лев Толстой Николаевич,1828-09-09,11/20/1910,"Yasnaya Polyana, Kaliningrad Oblast",54.5686,22.4461,Lev Tolstoy,53.2069,39.4508,Russia,Russia,Világirodalom,Realizmus,
+Антон Чехов Павлович,1860-01-29,7/15/1904,Taganrog,47.2333,38.9,Badenweiler,47.8017,7.6719,Russia,Germany,Világirodalom,Realizmus,
+Stendhal,1783-01-23,1842-03-23,Grenoble,45.1869,5.7264,Paris,48.8567,2.3522,France,France,Világirodalom,Realizmus,
+Honoré de Balzac,1799-05-20,1850-08-18,Tours,47.3928,0.6883,Paris,48.8567,2.3522,France,France,Világirodalom,Realizmus,
+Charles Baudelaire,1821-04-09,1867-08-31,Paris,48.8567,2.3522,Paris,48.8567,2.3522,France,France,Világirodalom,Századforduló,
+Paul Verlaine,1844-03-30,1896-01-08,Metz,49.1197,6.1769,Paris,48.8567,2.3522,France,France,Világirodalom,Századforduló,
+Arthur Rimbaud,1854-10-20,1891-11-10,Charleville-Mézières,49.76,4.7194,Marseille,43.2967,5.3764,France,France,Világirodalom,Századforduló,
+Gustave Flaubert,1821-12-12,1880-05-08,Rouen,49.4431,1.1025,Canteleu,49.4511,1.0361,France,France,Világirodalom,Századforduló,
+Émile Zola,1840-04-02,9/29/1902,Paris,48.8567,2.3522,Paris,48.8567,2.3522,France,France,Világirodalom,Századforduló,
+Guy Maupassant,1850-08-05,1893-07-06,Tourville-sur-Arques,49.8583,1.1014,Paris,48.8567,2.3522,France,France,Világirodalom,Századforduló,
+Oscar Wilde,1854-10-16,11/30/1900,Dublin,53.3497,-6.2603,Paris,48.8567,2.3522,Republic of Ireland,France,Világirodalom,Századforduló,
+George Shaw Bernard,1856-07-26,11/2/1950,Dublin,53.3497,-6.2603,Ayot St Lawrence,51.8343,-0.2671,Republic of Ireland,France,Világirodalom,Századforduló,
+Thomas Hardy,1840-06-02,1/11/1928,Stinsford,50.7177,-2.4115,"Dorchester, Dorset",50.7108,-2.4397,England,England,Világirodalom,Századforduló,
+Henry James,1843-04-15,2/28/1916,New York City,40.7,-74,London,51.5072,-0.1275,United States,England,Világirodalom,Századforduló,
+Walt Whitman,1819-05-31,1892-03-26,"West Hills, New York",40.8242,-73.4344,"Camden, New Jersey",39.9368,-75.1066,United States,United States,Világirodalom,Századforduló,
+Guillaume Apollinaire,1880-08-26,11/9/1918,Rome,41.8931,12.4828,Paris,48.8567,2.3522,Italy,France,Világirodalom,Századforduló,
+Thomas Mann,1875-06-06,8/12/1955,Lübeck,53.8697,10.6864,Zurich,47.3744,8.5411,Germany,Switzerland,Világirodalom,Századforduló,
+Franz Kafka,1883-07-03,6/3/1924,Prague,50.0875,14.421389,Klosterneuburg,48.3042,16.3167,Czech Republic,Germany,Világirodalom,Századforduló,
+Ernest Hemingway,1899-07-21,7/2/1961,"Oak Park, Illinois",41.8883,-87.7894,"Ketchum, Idaho",43.6667,-114.3667,United States,United States,Világirodalom,Századforduló,
+James Joyce,1882-02-02,1/13/1941,Rathgar,53.3117,-6.2743,Zurich,47.3744,8.5411,Republic of Ireland,Switzerland,Világirodalom,Századforduló,
+Marcel Proust,1871-07-10,11/18/1922,Paris,48.8567,2.3522,Paris,48.8567,2.3522,France,France,Világirodalom,Századforduló,
+Bertolt Brecht,1898-02-10,8/14/1956,Augsburg,48.3689,10.8978,Berlin,52.52,13.405,Germany,Germany,Világirodalom,Századforduló,
+Luigi Pirandello,1867-06-28,12/10/1936,Agrigento,37.3111,13.5765,Rome,41.8931,12.4828,Italy,Italy,Világirodalom,Századforduló,
+Federico Lorca Garcia,1898-06-05,8/19/1936,Fuente Vaqueros,37.2194,-3.7831,Alfacar,37.2367,-3.5708,Spain,Spain,Világirodalom,Századforduló,
+Махим Горький,1868-03-28,6/18/1936,Nizhny Novgorod,56.3269,44.0075,gorki-10,55.705636,37.024492,Russia,Russia,Világirodalom,Századforduló,
+Ľubomír Feldek,1936-1-1,1995-1-1,Žilina,49.2167,18.7333,Prague,50.0875,14.421389,Slovakia,Czech Republic,Szlovák irodalom,Kortárs,
+Miroslav Válek,1927-1-1,1991-1-1,Trnava,48.3778,17.5862,Bratislava,48.1447,17.1128,Slovakia,Slovakia,Szlovák irodalom,Kortárs,
