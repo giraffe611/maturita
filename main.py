@@ -1,7 +1,6 @@
 import pandas as pd
 import plotly.express as px  # (version 4.7.0 or higher)
-# import sqlite3 as sql
-# import openpyxl as xl
+
 
 from dash import Dash, dcc, html, Input, Output  # pip install dash (version 2.0.0 or higher)
 from dateutil.utils import today
@@ -134,14 +133,6 @@ print("App indítása")
 app = Dash(__name__)
 app.title = "Irodalmi Overview"
 
-
-# -- Import and clean data (importing csv into pandas)
-#df = pd.DataFrame(authorCSV, columns=['Name','BornYear','DiedYear','BornCity','BornLat','BornLong','DiedCity','DiedLat','DiedLong','BCountry','DCountry','Irodalom','Kor','Alkor'])
-#print(df[0:5])
-#df['Born'] = pd.to_datetime(df['BornYear'], errors='coerce')
-#df['Died'] = pd.to_datetime(df['DiedYear'], errors='coerce')
-
-#works_df = pd.DataFrame(worksXLSX, columns=['Title','Year','Author','Genre','Type','City','Country/region','Latitude','Longitude','Műfaj','G2'])
 # ------------------------------------------------------------------------------
 # App layout
 app.layout = html.Div( children=[
