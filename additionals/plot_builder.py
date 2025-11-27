@@ -1,8 +1,5 @@
 import pandas as pd
 import plotly.express as px
-import geopy
-from geopy.geocoders import Nominatim
-from networkx.classes.filters import show_edges
 
 
 spis = pd.read_excel("SlovakAuthors.xlsx")

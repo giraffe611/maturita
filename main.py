@@ -1,7 +1,7 @@
 import pandas as pd
 import plotly.express as px  # (version 4.7.0 or higher)
-import sqlite3 as sql
-import openpyxl as xl
+# import sqlite3 as sql
+# import openpyxl as xl
 
 from dash import Dash, dcc, html, Input, Output  # pip install dash (version 2.0.0 or higher)
 from dateutil.utils import today
@@ -11,7 +11,7 @@ from dateutil.utils import today
 print("Adatbetöltés megkezdése....")
 
 print("ALLA.xlsx betöltése")
-authorCSV = pd.read_excel('ALLA.xlsx')
+authorCSV = pd.read_excel('Data/ALLA.xlsx')
 
 authorCSV['BornYear'] = pd.to_datetime(authorCSV['BornYear'], format = '%Y-%m-%d', errors = 'coerce')
 authorCSV['DiedYear'] = pd.to_datetime(authorCSV['DiedYear'], format = '%Y-%m-%d', errors = 'coerce')
@@ -21,26 +21,11 @@ print()
 print(authorCSV)
 print()
 print("Works HU.xlsx betöltése")
-worksXLSX = pd.read_excel('Works HU.xlsx')
+worksXLSX = pd.read_excel('Data/Works HU.xlsx')
 worksXLSX['Year'] = pd.to_datetime(worksXLSX['Year'], format = '%Y', errors = 'coerce')
 print("Works HU.xlsx betöltve, adatai (Year) formátolva")
 print()
 print(worksXLSX)
-print()
-
-print("Adatbázis betöltése")
-conn = sql.connect("HUorWL")
-cursor = conn.cursor()
-print("Kurzor létrehozva")
-query = '''Select a.id, a.name, a.surname, n.nationality, e.name, a.huetap, a.wetap, a.born, a.died, a.fullname, hw.kind from Author a, Nationality n, HUvsWl hw, Etaps e where a.etap=e.id and a.nationality = n.id and a.literature = hw.id '''
-q2 = '''Select Works.title, Works.year, Works.author, Genre.genre from Works inner join Genre on Works.genre = Genre.genre'''
-authors = cursor.execute(query).fetchall()
-works = cursor.execute(q2).fetchall()
-print("Kurzor végrehajtva")
-cursor.close()
-conn.close()
-print("Kapcsolat bezárva")
-print("Adatbázis bezárva...")
 print()
 
 colors = {
@@ -51,7 +36,7 @@ print("Az oldal színkönyvtára betöltve!")
 print()
 print("Térképek betöltése")
 
-#authors_born = pd.read_csv("Irodalom.csv")
+
 authors_born_graph = px.scatter_map(
     authorCSV,
     lat='Blat',
@@ -151,12 +136,12 @@ app.title = "Irodalmi Overview"
 
 
 # -- Import and clean data (importing csv into pandas)
-df = pd.DataFrame(authorCSV, columns=['Name','BornYear','DiedYear','BornCity','BornLat','BornLong','DiedCity','DiedLat','DiedLong','BCountry','DCountry','Irodalom','Kor','Alkor'])
+#df = pd.DataFrame(authorCSV, columns=['Name','BornYear','DiedYear','BornCity','BornLat','BornLong','DiedCity','DiedLat','DiedLong','BCountry','DCountry','Irodalom','Kor','Alkor'])
 #print(df[0:5])
-df['Born'] = pd.to_datetime(df['BornYear'], errors='coerce')
-df['Died'] = pd.to_datetime(df['DiedYear'], errors='coerce')
+#df['Born'] = pd.to_datetime(df['BornYear'], errors='coerce')
+#df['Died'] = pd.to_datetime(df['DiedYear'], errors='coerce')
 
-works_df = pd.DataFrame(worksXLSX, columns=['Title','Year','Author','Genre','Type','City','Country/region','Latitude','Longitude','Műfaj','G2'])
+#works_df = pd.DataFrame(worksXLSX, columns=['Title','Year','Author','Genre','Type','City','Country/region','Latitude','Longitude','Műfaj','G2'])
 # ------------------------------------------------------------------------------
 # App layout
 app.layout = html.Div( children=[
@@ -167,8 +152,8 @@ app.layout = html.Div( children=[
     html.Div([
         dcc.Dropdown(
             id='literature',
-            options=[{'label': name, 'value': name} for name in sorted(df['Irodalom'].dropna().unique())],
-            value=[df['Irodalom'].dropna().iloc[0]] if not df['Irodalom'].dropna().empty else [],
+            options=[{'label': name, 'value': name} for name in sorted(authorCSV['Irodalom'].dropna().unique())],
+            value=[authorCSV['Irodalom'].dropna().iloc[0]] if not authorCSV['Irodalom'].dropna().empty else [],
             multi=True,
             clearable=True,
             persistence=True,
@@ -178,8 +163,8 @@ app.layout = html.Div( children=[
 
         dcc.Dropdown(
             id = 'etaps',
-            options = [{'label': meno, 'value': meno} for meno in sorted(df['Kor'].dropna().unique())],
-            value=[df['Kor'].dropna().iloc[0]] if not df['Kor'].dropna().empty else [],
+            options = [{'label': meno, 'value': meno} for meno in sorted(authorCSV['Kor'].dropna().unique())],
+            value=[authorCSV['Kor'].dropna().iloc[0]] if not authorCSV['Kor'].dropna().empty else [],
             multi=True,
             clearable=True,
             persistence=True,
@@ -285,9 +270,9 @@ html.H2("Statisztika & Map",
 def update_graph(option_slctd, etap_choice):
     print("update_graph hívva",option_slctd,"&", etap_choice, "paraméterekkel")
 
-    dff = df[
-        df['Irodalom'].isin(option_slctd) &
-        df['Kor'].isin(etap_choice)
+    dff = authorCSV[
+        authorCSV['Irodalom'].isin(option_slctd) &
+        authorCSV['Kor'].isin(etap_choice)
         ].copy()
     print("dff létrehozva")
 
@@ -331,9 +316,9 @@ def update_nationlitymap(etap_choice, option_slctd):
     if not option_slctd or not etap_choice:
         return "Válassz irodalmat és korszakot!"
 
-    filtered_df = df[
-        df['Kor'].isin(etap_choice) &
-        df['Irodalom'].isin(option_slctd)
+    filtered_df = authorCSV[
+        authorCSV['Kor'].isin(etap_choice) &
+        authorCSV['Irodalom'].isin(option_slctd)
         ].copy()
 
     fig = px.choropleth(
