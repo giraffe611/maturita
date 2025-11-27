@@ -11,21 +11,13 @@
 
 .output-choice {
     font-size: 20px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: "IBM Plex Mono", monospace;
     color: lightcyan;
 }
 
 .ABG-graph-container {
     font-size: 20px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: "IBM Plex Mono", monospace;
     color: lightcyan;
     background-color: #000;
-}
-
-
-.quicksand {
-  font-family: 'Quicksand', sans-serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
 }
