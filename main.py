@@ -1,9 +1,7 @@
 import pandas as pd
 import plotly.express as px  # (version 4.7.0 or higher)
-
-
+import openpyxl
 from dash import Dash, dcc, html, Input, Output  # pip install dash (version 2.0.0 or higher)
-from dateutil.utils import today
 
 
 #Data Fetching
@@ -28,8 +26,9 @@ print(worksXLSX)
 print()
 
 colors = {
-    'backround': '#000',
-    'text': 'lightcyan'
+    'backround': '#FFF',
+    'text': '#000',
+    'font': "IBM Plex Mono"
 }
 print("Az oldal színkönyvtára betöltve!")
 print()
@@ -47,7 +46,6 @@ authors_born_graph = px.scatter_map(
     title="Szarmazas"
 )
 authors_born_graph.update_layout(
-    map_style='dark',
     plot_bgcolor=colors['backround'],
     paper_bgcolor=colors['backround'],
     font_color=colors['text'])
@@ -60,9 +58,8 @@ EtapPie = px.pie(filtereddf,
              names = 'Kor',
              title='Érettségire melyik irodalmi korból van a legtöbb?',
              hole=0.5,
-             color_discrete_sequence=px.colors.sequential.Blues,)
-EtapPie.update_layout(template='plotly_dark',
-                      paper_bgcolor=colors['backround'],
+             color_discrete_sequence=px.colors.sequential.Bluered)
+EtapPie.update_layout(paper_bgcolor=colors['backround'],
                       font_color=colors['text']
                       )
 print("EtapPie ...ok")
@@ -73,8 +70,7 @@ WorksMufaj = px.bar(filteredworks,
              x = 'Műfaj',
              y = 'count',
              color = 'Műfaj',)
-WorksMufaj.update_layout(template='plotly_dark',
-                         paper_bgcolor=colors['backround'],
+WorksMufaj.update_layout(paper_bgcolor=colors['backround'],
                          font_color=colors['text']
                          )
 print("WorksMufaj ...ok")
@@ -87,8 +83,7 @@ LiraHistrogram = px.histogram(fflira,
              y='count',
              x = 'Type',
              labels='Type')
-LiraHistrogram.update_layout(template='plotly_dark',
-                             paper_bgcolor=colors['backround'],
+LiraHistrogram.update_layout(paper_bgcolor=colors['backround'],
                              font_color=colors['text']
                              )
 print("LiraHistogram ...ok")
@@ -101,8 +96,7 @@ ACountry = px.bar(AC,
                   labels = 'BCountry',
                   title="Ország toplista",
                   subtitle="Mennyi író/költő származik az adott országból")
-ACountry.update_layout(template='plotly_dark',
-                       paper_bgcolor=colors['backround'],
+ACountry.update_layout(paper_bgcolor=colors['backround'],
                        font_color=colors['text'])
 print("ACountry ...ok")
 
@@ -116,9 +110,7 @@ WorksMap = px.scatter_map(worksXLSX,
                      width=900,
                      title="Magyar művek megírásának helye ** folyamatban a bővítés **",
                      zoom=5)
-WorksMap.update_layout(map_style='dark',
-                       template='plotly_dark',
-                       paper_bgcolor=colors['backround'],
+WorksMap.update_layout(paper_bgcolor=colors['backround'],
                        font_color=colors['text']
                        )
 print("WorksMap ...ok")
@@ -162,7 +154,7 @@ app.layout = html.Div( children=[
             persistence_type='local',
             placeholder='Select a Etap',
             ),
-    ]),
+    ], style={'font-family': colors['font'],}),
     html.Br(),
     html.Div(id='output_container',
              children=[],
@@ -180,7 +172,7 @@ app.layout = html.Div( children=[
                            value='Born',
                            labelStyle={'display': 'inline-block', 'margin-right': '12px'},
                            className='radioitems',
-                           style={'display': 'inline-block', 'color': 'lightcyan'},),
+                           style={'display': 'inline-block', 'color': colors['text']},),
             dcc.Graph(
                 id='Authors_born_graph',
                 figure = authors_born_graph,
@@ -195,7 +187,7 @@ app.layout = html.Div( children=[
                 style = {'height': '50vh',
                          'color': colors['text']},
             )
-    ], style={'padding': 10}),
+    ], style={'padding': 10, 'font-family': colors['font'],}),
     html.Br(),
     html.H2("Gant graph és érintett országok",),
     html.Div([
@@ -203,8 +195,7 @@ app.layout = html.Div( children=[
             dcc.Graph(id='Authors',
                       figure={},
                       style={'height': '80vh',
-                             'palette': 'muted',
-                             'font-family': 'Quicksand'}),
+                             'palette': 'muted'}),
         ], style={'padding':10, 'flex':1}),
         html.Div([
             dcc.Graph(id='nationality-map',
@@ -243,7 +234,7 @@ html.H2("Statisztika & Map",
     html.Br(),
     html.Br(),
 
-    html.H6(f"Készítette: Kiss Christopher. Minden jog fenntartva {today()}",
+    html.H6(f"Készítette: Kiss Christopher. Minden jog fenntartva 2025-11-19",
             ),
 
 ])
@@ -289,8 +280,7 @@ def update_graph(option_slctd, etap_choice):
 
     )
     fig.update_yaxes(autorange="reversed")  # Gantt charts usually reverse Y-axis
-    fig.update_layout(template='plotly_dark',
-                      font_color=colors['text'],
+    fig.update_layout(font_color=colors['text'],
                       paper_bgcolor=colors['backround'])
 
     print("update_graph fig létrehozva")
@@ -321,8 +311,7 @@ def update_nationlitymap(etap_choice, option_slctd):
         projection='miller',
 
     )
-    fig.update_layout(template='plotly_dark',
-                      font_color = colors['text'],
+    fig.update_layout(font_color = colors['text'],
                       paper_bgcolor=colors['backround'])
     print("update_nationlitymap fig létrehozva")
     return fig
@@ -354,9 +343,8 @@ def update_authors_born_graph(choice):
             zoom = 2,
         )
 
-    fig.update_layout(map_style='dark',
-                      font_color='lightcyan',
-                      paper_bgcolor='#000')
+    fig.update_layout(font_color=colors['text'],
+                      paper_bgcolor=colors['backround'])
     print("update_authors_born_graph fig létrehozva")
     return fig
 
