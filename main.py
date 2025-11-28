@@ -11,7 +11,7 @@ print("ALLA.xlsx betöltése")
 authorCSV = pd.read_excel('Data/ALLA.xlsx')
 
 authorCSV['BornYear'] = pd.to_datetime(authorCSV['BornYear'], format = '%Y-%m-%d', errors = 'coerce')
-authorCSV['DiedYear'] = pd.to_datetime(authorCSV['DiedYear'], format = '%Y-%m-%d', errors = 'coerce')
+authorCSV['DiedYear'] = pd.to_datetime(authorCSV['DiedYear'], format = '%Y-%m-%d', errors = 'coerce') if authorCSV['DiedYear'] is not None else authorCSV['DiedYear'].fillna(pd.Timestamp.today())
 
 print("ALLA.xlsx betöltve, adatai (BornYear, DiedYear) formátolva")
 print()
