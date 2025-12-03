@@ -234,8 +234,7 @@ html.H2("Statisztika & Map",
     html.Br(),
     html.Br(),
 
-    html.H6(f"Készítette: Kiss Christopher. Minden jog fenntartva 2025-11-19",
-            ),
+    html.H6("Készítette: Kiss Christopher. Minden jog fenntartva 2025-11-19"),
 
 ])
 
